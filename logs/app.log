@@ -1,0 +1,318 @@
+2026-07-26 12:06:12,740 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 12:06:12,755 | INFO | __main__ | Database initialization completed
+2026-07-26 12:06:12,758 | INFO | __main__ | Item Blueprint registered
+2026-07-26 12:06:12,758 | INFO | __main__ | Starting Flask CRUD API
+2026-07-26 12:06:12,777 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-26 12:06:12,777 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-07-26 12:06:12,778 | INFO | werkzeug |  * Restarting with stat
+2026-07-26 12:06:13,304 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 12:06:13,320 | INFO | __main__ | Database initialization completed
+2026-07-26 12:06:13,323 | INFO | __main__ | Item Blueprint registered
+2026-07-26 12:06:13,323 | INFO | __main__ | Starting Flask CRUD API
+2026-07-26 12:06:13,337 | WARNING | werkzeug |  * Debugger is active!
+2026-07-26 12:06:13,339 | INFO | werkzeug |  * Debugger PIN: 139-795-324
+2026-07-26 12:08:27,928 | INFO | __main__ | REQUEST | id=37339686-f5d8-4282-ae22-2276f61ada6c | method=GET | path=/
+2026-07-26 12:08:28,106 | INFO | __main__ | RESPONSE | id=37339686-f5d8-4282-ae22-2276f61ada6c | method=GET | path=/ | status=200 | duration_ms=178.24
+2026-07-26 12:08:28,107 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 12:08:28] "GET / HTTP/1.1" 200 -
+2026-07-26 12:08:28,114 | INFO | __main__ | REQUEST | id=3561e5f5-f3c9-4688-8d72-bf3f9dcfda0c | method=GET | path=/static/css/style.css
+2026-07-26 12:08:28,115 | INFO | __main__ | REQUEST | id=edb1c337-015e-4c20-9fe6-c073c027c67b | method=GET | path=/static/js/script.js
+2026-07-26 12:08:28,180 | INFO | __main__ | RESPONSE | id=3561e5f5-f3c9-4688-8d72-bf3f9dcfda0c | method=GET | path=/static/css/style.css | status=304 | duration_ms=65.99
+2026-07-26 12:08:28,180 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 12:08:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-26 12:08:28,240 | INFO | __main__ | RESPONSE | id=edb1c337-015e-4c20-9fe6-c073c027c67b | method=GET | path=/static/js/script.js | status=304 | duration_ms=125.20
+2026-07-26 12:08:28,240 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 12:08:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-07-26 12:08:28,261 | INFO | __main__ | REQUEST | id=4c0925bc-94a2-4356-baba-bfe2a54c9cf3 | method=GET | path=/items
+2026-07-26 12:08:28,261 | INFO | services.item_service | Retrieving all items
+2026-07-26 12:08:28,265 | INFO | services.item_service | Retrieved 4 items
+2026-07-26 12:08:28,265 | INFO | __main__ | RESPONSE | id=4c0925bc-94a2-4356-baba-bfe2a54c9cf3 | method=GET | path=/items | status=200 | duration_ms=3.79
+2026-07-26 12:08:28,265 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 12:08:28] "GET /items HTTP/1.1" 200 -
+2026-07-26 12:08:42,021 | INFO | __main__ | REQUEST | id=3cf42f89-d966-4e0e-81c5-6ffd9952378c | method=POST | path=/items
+2026-07-26 12:08:42,022 | INFO | services.item_service | Creating item name=Test
+2026-07-26 12:08:42,043 | INFO | services.item_service | Item created successfully id=6
+2026-07-26 12:08:42,043 | INFO | __main__ | RESPONSE | id=3cf42f89-d966-4e0e-81c5-6ffd9952378c | method=POST | path=/items | status=201 | duration_ms=21.84
+2026-07-26 12:08:42,044 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 12:08:42] "[35m[1mPOST /items HTTP/1.1[0m" 201 -
+2026-07-26 12:08:43,799 | INFO | __main__ | REQUEST | id=a2390fcd-9d85-48af-b72b-2c5d9eb819c2 | method=GET | path=/items
+2026-07-26 12:08:43,800 | INFO | services.item_service | Retrieving all items
+2026-07-26 12:08:43,801 | INFO | services.item_service | Retrieved 5 items
+2026-07-26 12:08:43,801 | INFO | __main__ | RESPONSE | id=a2390fcd-9d85-48af-b72b-2c5d9eb819c2 | method=GET | path=/items | status=200 | duration_ms=1.81
+2026-07-26 12:08:43,802 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 12:08:43] "GET /items HTTP/1.1" 200 -
+2026-07-26 12:08:53,511 | INFO | __main__ | REQUEST | id=8510d10c-075a-4345-9306-5a89066e6e0e | method=PUT | path=/items/6
+2026-07-26 12:08:53,512 | INFO | services.item_service | Updating item id=6
+2026-07-26 12:08:53,520 | INFO | services.item_service | Item updated successfully id=6
+2026-07-26 12:08:53,522 | INFO | __main__ | RESPONSE | id=8510d10c-075a-4345-9306-5a89066e6e0e | method=PUT | path=/items/6 | status=200 | duration_ms=10.34
+2026-07-26 12:08:53,522 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 12:08:53] "PUT /items/6 HTTP/1.1" 200 -
+2026-07-26 12:08:55,184 | INFO | __main__ | REQUEST | id=d65ee65b-d7d1-41a9-84d2-d11915546a72 | method=GET | path=/items
+2026-07-26 12:08:55,184 | INFO | services.item_service | Retrieving all items
+2026-07-26 12:08:55,185 | INFO | services.item_service | Retrieved 5 items
+2026-07-26 12:08:55,185 | INFO | __main__ | RESPONSE | id=d65ee65b-d7d1-41a9-84d2-d11915546a72 | method=GET | path=/items | status=200 | duration_ms=1.28
+2026-07-26 12:08:55,186 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 12:08:55] "GET /items HTTP/1.1" 200 -
+2026-07-26 16:17:19,634 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:17:19,743 | INFO | app | Database initialization completed
+2026-07-26 16:17:19,746 | INFO | app | Item Blueprint registered
+2026-07-26 16:17:43,301 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:17:43,315 | INFO | app | Database initialization completed
+2026-07-26 16:17:43,317 | INFO | app | Item Blueprint registered
+2026-07-26 16:19:53,579 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:19:53,595 | INFO | __main__ | Database initialization completed
+2026-07-26 16:19:53,595 | INFO | __main__ | Starting Flask CRUD API
+2026-07-26 16:19:53,644 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-26 16:19:53,644 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-07-26 16:19:53,645 | INFO | werkzeug |  * Restarting with stat
+2026-07-26 16:19:54,095 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:19:54,110 | INFO | __main__ | Database initialization completed
+2026-07-26 16:19:54,110 | INFO | __main__ | Starting Flask CRUD API
+2026-07-26 16:19:54,122 | WARNING | werkzeug |  * Debugger is active!
+2026-07-26 16:19:54,124 | INFO | werkzeug |  * Debugger PIN: 139-795-324
+2026-07-26 16:20:36,631 | INFO | __main__ | REQUEST | id=745baf5c-ed13-4e94-bcef-53be3480d722 | method=GET | path=/
+2026-07-26 16:20:36,636 | INFO | __main__ | RESPONSE | id=745baf5c-ed13-4e94-bcef-53be3480d722 | method=GET | path=/ | status=200 | duration_ms=5.38
+2026-07-26 16:20:36,637 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:20:36] "GET / HTTP/1.1" 200 -
+2026-07-26 16:20:36,645 | INFO | __main__ | REQUEST | id=0ed4b7f6-e14e-4f38-b1bd-a7462a0af281 | method=GET | path=/static/css/style.css
+2026-07-26 16:20:36,648 | INFO | __main__ | REQUEST | id=1370f660-cf42-4b50-91cf-f145d6028acf | method=GET | path=/static/js/script.js
+2026-07-26 16:20:36,702 | INFO | __main__ | RESPONSE | id=1370f660-cf42-4b50-91cf-f145d6028acf | method=GET | path=/static/js/script.js | status=304 | duration_ms=54.55
+2026-07-26 16:20:36,702 | INFO | __main__ | RESPONSE | id=0ed4b7f6-e14e-4f38-b1bd-a7462a0af281 | method=GET | path=/static/css/style.css | status=304 | duration_ms=57.05
+2026-07-26 16:20:36,703 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:20:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-07-26 16:20:36,703 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:20:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-26 16:20:36,715 | INFO | __main__ | REQUEST | id=8d677573-03c9-4444-9293-a2a41a7f74cf | method=GET | path=/items
+2026-07-26 16:20:36,715 | INFO | services.item_service | Retrieving all items
+2026-07-26 16:20:36,719 | INFO | services.item_service | Retrieved 5 items
+2026-07-26 16:20:36,720 | INFO | __main__ | RESPONSE | id=8d677573-03c9-4444-9293-a2a41a7f74cf | method=GET | path=/items | status=200 | duration_ms=4.56
+2026-07-26 16:20:36,720 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:20:36] "GET /items HTTP/1.1" 200 -
+2026-07-26 16:20:43,111 | INFO | __main__ | REQUEST | id=0d22d358-2645-4b00-be3e-92e55a55b4f3 | method=GET | path=/
+2026-07-26 16:20:43,112 | INFO | __main__ | RESPONSE | id=0d22d358-2645-4b00-be3e-92e55a55b4f3 | method=GET | path=/ | status=200 | duration_ms=0.51
+2026-07-26 16:20:43,112 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:20:43] "GET / HTTP/1.1" 200 -
+2026-07-26 16:20:43,121 | INFO | __main__ | REQUEST | id=f3033487-9161-4db9-bdd1-bf9cc33b408a | method=GET | path=/static/css/style.css
+2026-07-26 16:20:43,123 | INFO | __main__ | REQUEST | id=71f54332-89c9-4d33-b94a-8f306af89171 | method=GET | path=/static/js/script.js
+2026-07-26 16:20:43,123 | INFO | __main__ | RESPONSE | id=f3033487-9161-4db9-bdd1-bf9cc33b408a | method=GET | path=/static/css/style.css | status=304 | duration_ms=2.50
+2026-07-26 16:20:43,124 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:20:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-26 16:20:43,124 | INFO | __main__ | RESPONSE | id=71f54332-89c9-4d33-b94a-8f306af89171 | method=GET | path=/static/js/script.js | status=304 | duration_ms=1.10
+2026-07-26 16:20:43,124 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:20:43] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-07-26 16:20:43,138 | INFO | __main__ | REQUEST | id=8a0be739-636e-442c-8f1f-c2a756325a2f | method=GET | path=/items
+2026-07-26 16:20:43,138 | INFO | services.item_service | Retrieving all items
+2026-07-26 16:20:43,139 | INFO | services.item_service | Retrieved 5 items
+2026-07-26 16:20:43,139 | INFO | __main__ | RESPONSE | id=8a0be739-636e-442c-8f1f-c2a756325a2f | method=GET | path=/items | status=200 | duration_ms=1.54
+2026-07-26 16:20:43,139 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:20:43] "GET /items HTTP/1.1" 200 -
+2026-07-26 16:21:36,627 | INFO | __main__ | REQUEST | id=554d5561-d1c9-4bcb-8c7e-f2da62c8a7f5 | method=POST | path=/items
+2026-07-26 16:21:36,627 | INFO | services.item_service | Creating item name=45454
+2026-07-26 16:21:36,638 | INFO | services.item_service | Item created successfully id=7
+2026-07-26 16:21:36,638 | INFO | __main__ | RESPONSE | id=554d5561-d1c9-4bcb-8c7e-f2da62c8a7f5 | method=POST | path=/items | status=201 | duration_ms=10.91
+2026-07-26 16:21:36,638 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:21:36] "[35m[1mPOST /items HTTP/1.1[0m" 201 -
+2026-07-26 16:21:39,196 | INFO | __main__ | REQUEST | id=dac84ad7-f404-43c5-8e5c-1174cc00a86a | method=GET | path=/items
+2026-07-26 16:21:39,196 | INFO | services.item_service | Retrieving all items
+2026-07-26 16:21:39,197 | INFO | services.item_service | Retrieved 6 items
+2026-07-26 16:21:39,198 | INFO | __main__ | RESPONSE | id=dac84ad7-f404-43c5-8e5c-1174cc00a86a | method=GET | path=/items | status=200 | duration_ms=1.77
+2026-07-26 16:21:39,198 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:21:39] "GET /items HTTP/1.1" 200 -
+2026-07-26 16:23:44,105 | INFO | werkzeug |  * Detected change in 'C:\\Users\\Admin\\Desktop\\SindhujaAI Learning\\Sindhuja Projects\\FlaskCRUDAPI\\tests\\test_validators.py', reloading
+2026-07-26 16:23:44,223 | INFO | werkzeug |  * Restarting with stat
+2026-07-26 16:23:44,768 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:23:44,785 | INFO | __main__ | Database initialization completed
+2026-07-26 16:23:44,786 | INFO | __main__ | Starting Flask CRUD API
+2026-07-26 16:23:44,796 | WARNING | werkzeug |  * Debugger is active!
+2026-07-26 16:23:44,798 | INFO | werkzeug |  * Debugger PIN: 139-795-324
+2026-07-26 16:23:58,944 | INFO | werkzeug |  * Detected change in 'C:\\Users\\Admin\\Desktop\\SindhujaAI Learning\\Sindhuja Projects\\FlaskCRUDAPI\\tests\\test_repository.py', reloading
+2026-07-26 16:23:59,045 | INFO | werkzeug |  * Restarting with stat
+2026-07-26 16:23:59,531 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:23:59,546 | INFO | __main__ | Database initialization completed
+2026-07-26 16:23:59,546 | INFO | __main__ | Starting Flask CRUD API
+2026-07-26 16:23:59,557 | WARNING | werkzeug |  * Debugger is active!
+2026-07-26 16:23:59,559 | INFO | werkzeug |  * Debugger PIN: 139-795-324
+2026-07-26 16:24:12,696 | INFO | werkzeug |  * Detected change in 'C:\\Users\\Admin\\Desktop\\SindhujaAI Learning\\Sindhuja Projects\\FlaskCRUDAPI\\tests\\test_service.py', reloading
+2026-07-26 16:24:12,830 | INFO | werkzeug |  * Restarting with stat
+2026-07-26 16:24:13,375 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:24:13,391 | INFO | __main__ | Database initialization completed
+2026-07-26 16:24:13,392 | INFO | __main__ | Starting Flask CRUD API
+2026-07-26 16:24:13,402 | WARNING | werkzeug |  * Debugger is active!
+2026-07-26 16:24:13,404 | INFO | werkzeug |  * Debugger PIN: 139-795-324
+2026-07-26 16:24:25,530 | INFO | werkzeug |  * Detected change in 'C:\\Users\\Admin\\Desktop\\SindhujaAI Learning\\Sindhuja Projects\\FlaskCRUDAPI\\tests\\test_api.py', reloading
+2026-07-26 16:24:25,633 | INFO | werkzeug |  * Restarting with stat
+2026-07-26 16:24:26,090 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:24:26,109 | INFO | __main__ | Database initialization completed
+2026-07-26 16:24:26,110 | INFO | __main__ | Starting Flask CRUD API
+2026-07-26 16:24:26,128 | WARNING | werkzeug |  * Debugger is active!
+2026-07-26 16:24:26,130 | INFO | werkzeug |  * Debugger PIN: 139-795-324
+2026-07-26 16:24:57,570 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:24:57,586 | INFO | app | Database initialization completed
+2026-07-26 16:24:57,708 | WARNING | services.item_service | Item not found id=999
+2026-07-26 16:24:57,723 | WARNING | app | VALIDATION_ERROR | id=e2b5454d-b6d3-4b4b-87d7-988b71118d75 | Item name is required.
+2026-07-26 16:24:57,730 | WARNING | app | VALIDATION_ERROR | id=60fac566-787e-48e2-9ed5-a09dfdb3e994 | Price must be numeric.
+2026-07-26 16:24:57,748 | WARNING | services.item_service | Cannot update. Item not found id=999
+2026-07-26 16:24:57,759 | WARNING | services.item_service | Item not found id=1
+2026-07-26 16:24:57,767 | WARNING | services.item_service | Cannot delete. Item not found id=999
+2026-07-26 16:24:57,775 | WARNING | app | NOT_FOUND | id=6b85397e-9b17-4be9-87d0-d53ec0142c18 | method=GET | path=/invalid-endpoint
+2026-07-26 16:24:57,781 | WARNING | app | METHOD_NOT_ALLOWED | id=12f4c408-a2cc-4f73-9377-a495050ea1d2 | method=PATCH | path=/items
+2026-07-26 16:24:57,980 | WARNING | services.item_service | Item not found id=999
+2026-07-26 16:24:58,013 | WARNING | services.item_service | Cannot update. Item not found id=999
+2026-07-26 16:24:58,035 | WARNING | services.item_service | Cannot delete. Item not found id=999
+2026-07-26 16:25:19,860 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:25:19,885 | INFO | app | Database initialization completed
+2026-07-26 16:25:20,026 | WARNING | services.item_service | Item not found id=999
+2026-07-26 16:25:20,065 | WARNING | app | VALIDATION_ERROR | id=6234f006-dfd4-4ad3-b829-be6595e38fff | Item name is required.
+2026-07-26 16:25:20,089 | WARNING | app | VALIDATION_ERROR | id=85b30ec2-ea34-48f2-941b-a803ef63249b | Price must be numeric.
+2026-07-26 16:25:20,163 | WARNING | services.item_service | Cannot update. Item not found id=999
+2026-07-26 16:25:20,175 | WARNING | services.item_service | Item not found id=1
+2026-07-26 16:25:20,196 | WARNING | services.item_service | Cannot delete. Item not found id=999
+2026-07-26 16:25:20,202 | WARNING | app | NOT_FOUND | id=93056cb7-5b47-47f1-92f5-4d743108e571 | method=GET | path=/invalid-endpoint
+2026-07-26 16:25:20,211 | WARNING | app | METHOD_NOT_ALLOWED | id=3a5ff469-0921-4493-8779-29b9764fc646 | method=PATCH | path=/items
+2026-07-26 16:25:20,356 | WARNING | services.item_service | Item not found id=999
+2026-07-26 16:25:20,381 | WARNING | services.item_service | Cannot update. Item not found id=999
+2026-07-26 16:25:20,413 | WARNING | services.item_service | Cannot delete. Item not found id=999
+2026-07-26 16:25:49,582 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:25:49,606 | INFO | app | Database initialization completed
+2026-07-26 16:25:49,756 | WARNING | services.item_service | Item not found id=999
+2026-07-26 16:25:49,796 | WARNING | app | VALIDATION_ERROR | id=b720e1d4-a53e-42f5-8ec8-ad36968ab5a9 | Item name is required.
+2026-07-26 16:25:49,807 | WARNING | app | VALIDATION_ERROR | id=15ad9610-8184-41a2-9c5e-06d02ec13f42 | Price must be numeric.
+2026-07-26 16:25:49,830 | WARNING | services.item_service | Cannot update. Item not found id=999
+2026-07-26 16:25:49,849 | WARNING | services.item_service | Item not found id=1
+2026-07-26 16:25:49,867 | WARNING | services.item_service | Cannot delete. Item not found id=999
+2026-07-26 16:25:49,916 | WARNING | app | NOT_FOUND | id=656e3509-0399-4cbe-a6bf-b6b59d9f22a9 | method=GET | path=/invalid-endpoint
+2026-07-26 16:25:49,938 | WARNING | app | METHOD_NOT_ALLOWED | id=a36d89d4-1f82-4417-a5c8-c4b968a0cce6 | method=PATCH | path=/items
+2026-07-26 16:25:50,122 | WARNING | services.item_service | Item not found id=999
+2026-07-26 16:25:50,149 | WARNING | services.item_service | Cannot update. Item not found id=999
+2026-07-26 16:25:50,169 | WARNING | services.item_service | Cannot delete. Item not found id=999
+2026-07-26 16:27:03,444 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:27:03,460 | INFO | app | Database initialization completed
+2026-07-26 16:27:24,542 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:27:24,557 | INFO | app | Database initialization completed
+2026-07-26 16:27:24,642 | WARNING | services.item_service | Item not found id=999
+2026-07-26 16:27:24,657 | WARNING | app | VALIDATION_ERROR | id=0cfab88b-cef7-49f2-ae95-c79e89ef0b3d | Item name is required.
+2026-07-26 16:27:24,664 | WARNING | app | VALIDATION_ERROR | id=76ceadc0-4d30-487f-b1ba-e61fc05327a2 | Price must be numeric.
+2026-07-26 16:27:24,682 | WARNING | services.item_service | Cannot update. Item not found id=999
+2026-07-26 16:27:24,694 | WARNING | services.item_service | Item not found id=1
+2026-07-26 16:27:24,702 | WARNING | services.item_service | Cannot delete. Item not found id=999
+2026-07-26 16:27:24,710 | WARNING | app | NOT_FOUND | id=59303fd1-60b5-458c-9962-67fc24e21ddf | method=GET | path=/invalid-endpoint
+2026-07-26 16:27:24,716 | WARNING | app | METHOD_NOT_ALLOWED | id=e255c69c-649e-4545-a996-289fa99918f9 | method=PATCH | path=/items
+2026-07-26 16:27:24,922 | WARNING | services.item_service | Item not found id=999
+2026-07-26 16:27:24,948 | WARNING | services.item_service | Cannot update. Item not found id=999
+2026-07-26 16:27:24,967 | WARNING | services.item_service | Cannot delete. Item not found id=999
+2026-07-26 16:27:46,564 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:27:46,590 | INFO | app | Database initialization completed
+2026-07-26 16:27:46,748 | WARNING | services.item_service | Item not found id=999
+2026-07-26 16:27:46,772 | WARNING | app | VALIDATION_ERROR | id=067aba09-eb71-43c5-9e23-8806fbdac364 | Item name is required.
+2026-07-26 16:27:46,781 | WARNING | app | VALIDATION_ERROR | id=5641f22e-2fa9-444a-988d-0ff079674313 | Price must be numeric.
+2026-07-26 16:27:46,863 | WARNING | services.item_service | Cannot update. Item not found id=999
+2026-07-26 16:27:46,901 | WARNING | services.item_service | Item not found id=1
+2026-07-26 16:27:46,914 | WARNING | services.item_service | Cannot delete. Item not found id=999
+2026-07-26 16:27:46,926 | WARNING | app | NOT_FOUND | id=14dbf984-2b9a-45d2-9611-5b173afb11e3 | method=GET | path=/invalid-endpoint
+2026-07-26 16:27:46,936 | WARNING | app | METHOD_NOT_ALLOWED | id=4f11a65e-e8f3-41b2-8870-863cd5b97aaf | method=PATCH | path=/items
+2026-07-26 16:27:47,130 | WARNING | services.item_service | Item not found id=999
+2026-07-26 16:27:47,160 | WARNING | services.item_service | Cannot update. Item not found id=999
+2026-07-26 16:27:47,179 | WARNING | services.item_service | Cannot delete. Item not found id=999
+2026-07-26 16:28:15,330 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:28:15,354 | INFO | app | Database initialization completed
+2026-07-26 16:28:15,515 | WARNING | services.item_service | Item not found id=999
+2026-07-26 16:28:15,539 | WARNING | app | VALIDATION_ERROR | id=ad3d4aae-40c3-4137-b063-43577734542f | Item name is required.
+2026-07-26 16:28:15,548 | WARNING | app | VALIDATION_ERROR | id=66779be1-5e1f-4226-b902-8aff8ce45fdd | Price must be numeric.
+2026-07-26 16:28:15,573 | WARNING | services.item_service | Cannot update. Item not found id=999
+2026-07-26 16:28:15,598 | WARNING | services.item_service | Item not found id=1
+2026-07-26 16:28:15,611 | WARNING | services.item_service | Cannot delete. Item not found id=999
+2026-07-26 16:28:15,620 | WARNING | app | NOT_FOUND | id=18eb4da1-3780-489f-aaeb-fdded0b90b3e | method=GET | path=/invalid-endpoint
+2026-07-26 16:28:15,629 | WARNING | app | METHOD_NOT_ALLOWED | id=fbf093d9-99dc-428b-ac00-8294cea16d6f | method=PATCH | path=/items
+2026-07-26 16:28:15,798 | WARNING | services.item_service | Item not found id=999
+2026-07-26 16:28:15,829 | WARNING | services.item_service | Cannot update. Item not found id=999
+2026-07-26 16:28:15,848 | WARNING | services.item_service | Cannot delete. Item not found id=999
+2026-07-26 16:30:47,670 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:30:47,687 | INFO | __main__ | Database initialization completed
+2026-07-26 16:30:47,688 | INFO | __main__ | Starting Flask CRUD API
+2026-07-26 16:30:47,706 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-26 16:30:47,706 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-07-26 16:30:47,707 | INFO | werkzeug |  * Restarting with stat
+2026-07-26 16:30:48,156 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-26 16:30:48,172 | INFO | __main__ | Database initialization completed
+2026-07-26 16:30:48,172 | INFO | __main__ | Starting Flask CRUD API
+2026-07-26 16:30:48,185 | WARNING | werkzeug |  * Debugger is active!
+2026-07-26 16:30:48,187 | INFO | werkzeug |  * Debugger PIN: 139-795-324
+2026-07-26 16:30:57,036 | INFO | __main__ | REQUEST | id=3fef28f6-f307-4ed3-869d-b3083d57ecd2 | method=GET | path=/
+2026-07-26 16:30:57,040 | INFO | __main__ | RESPONSE | id=3fef28f6-f307-4ed3-869d-b3083d57ecd2 | method=GET | path=/ | status=200 | duration_ms=3.62
+2026-07-26 16:30:57,040 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:30:57] "GET / HTTP/1.1" 200 -
+2026-07-26 16:30:57,049 | INFO | __main__ | REQUEST | id=d69f2d14-8ae9-4451-ba17-db2cfe9bd4d2 | method=GET | path=/static/css/style.css
+2026-07-26 16:30:57,050 | INFO | __main__ | REQUEST | id=95e5b54f-3f14-44fe-aae8-10eca68817dd | method=GET | path=/static/js/script.js
+2026-07-26 16:30:57,103 | INFO | __main__ | RESPONSE | id=d69f2d14-8ae9-4451-ba17-db2cfe9bd4d2 | method=GET | path=/static/css/style.css | status=304 | duration_ms=54.97
+2026-07-26 16:30:57,104 | INFO | __main__ | RESPONSE | id=95e5b54f-3f14-44fe-aae8-10eca68817dd | method=GET | path=/static/js/script.js | status=304 | duration_ms=53.72
+2026-07-26 16:30:57,104 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:30:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-26 16:30:57,104 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:30:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-07-26 16:30:57,116 | INFO | __main__ | REQUEST | id=39d0aa25-1787-45f1-8499-a2ab71b038d7 | method=GET | path=/items
+2026-07-26 16:30:57,116 | INFO | services.item_service | Retrieving all items
+2026-07-26 16:30:57,119 | INFO | services.item_service | Retrieved 6 items
+2026-07-26 16:30:57,119 | INFO | __main__ | RESPONSE | id=39d0aa25-1787-45f1-8499-a2ab71b038d7 | method=GET | path=/items | status=200 | duration_ms=3.58
+2026-07-26 16:30:57,120 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:30:57] "GET /items HTTP/1.1" 200 -
+2026-07-26 16:31:16,139 | INFO | __main__ | REQUEST | id=a5e3bc2b-0c01-4b90-8185-8336a03b5548 | method=POST | path=/items
+2026-07-26 16:31:16,139 | WARNING | __main__ | VALIDATION_ERROR | id=a5e3bc2b-0c01-4b90-8185-8336a03b5548 | Price must be numeric.
+2026-07-26 16:31:16,139 | INFO | __main__ | RESPONSE | id=a5e3bc2b-0c01-4b90-8185-8336a03b5548 | method=POST | path=/items | status=400 | duration_ms=0.64
+2026-07-26 16:31:16,140 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:31:16] "[31m[1mPOST /items HTTP/1.1[0m" 400 -
+2026-07-26 16:31:22,155 | INFO | __main__ | REQUEST | id=14d99274-f709-4939-8eba-1566739bcb56 | method=POST | path=/items
+2026-07-26 16:31:22,156 | WARNING | __main__ | VALIDATION_ERROR | id=14d99274-f709-4939-8eba-1566739bcb56 | Price must be numeric.
+2026-07-26 16:31:22,156 | INFO | __main__ | RESPONSE | id=14d99274-f709-4939-8eba-1566739bcb56 | method=POST | path=/items | status=400 | duration_ms=0.95
+2026-07-26 16:31:22,156 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:31:22] "[31m[1mPOST /items HTTP/1.1[0m" 400 -
+2026-07-26 16:31:28,564 | INFO | __main__ | REQUEST | id=ef775ed7-2814-4b40-bdf8-e9c2977566e3 | method=POST | path=/items
+2026-07-26 16:31:28,564 | INFO | services.item_service | Creating item name=^^$*#&
+2026-07-26 16:31:28,575 | INFO | services.item_service | Item created successfully id=8
+2026-07-26 16:31:28,575 | INFO | __main__ | RESPONSE | id=ef775ed7-2814-4b40-bdf8-e9c2977566e3 | method=POST | path=/items | status=201 | duration_ms=11.50
+2026-07-26 16:31:28,576 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:31:28] "[35m[1mPOST /items HTTP/1.1[0m" 201 -
+2026-07-26 16:31:30,885 | INFO | __main__ | REQUEST | id=6f41269e-1b86-494d-a945-690e5d071cea | method=GET | path=/items
+2026-07-26 16:31:30,885 | INFO | services.item_service | Retrieving all items
+2026-07-26 16:31:30,886 | INFO | services.item_service | Retrieved 7 items
+2026-07-26 16:31:30,886 | INFO | __main__ | RESPONSE | id=6f41269e-1b86-494d-a945-690e5d071cea | method=GET | path=/items | status=200 | duration_ms=1.34
+2026-07-26 16:31:30,887 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:31:30] "GET /items HTTP/1.1" 200 -
+2026-07-26 16:31:34,342 | INFO | __main__ | REQUEST | id=a768d600-6108-4218-95a1-e281f0a7dc0f | method=DELETE | path=/items/8
+2026-07-26 16:31:34,342 | INFO | services.item_service | Deleting item id=8
+2026-07-26 16:31:34,352 | INFO | services.item_service | Item deleted successfully id=8
+2026-07-26 16:31:34,352 | INFO | __main__ | RESPONSE | id=a768d600-6108-4218-95a1-e281f0a7dc0f | method=DELETE | path=/items/8 | status=200 | duration_ms=10.62
+2026-07-26 16:31:34,353 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:31:34] "DELETE /items/8 HTTP/1.1" 200 -
+2026-07-26 16:31:36,283 | INFO | __main__ | REQUEST | id=e879c731-8583-4d63-ad53-7c247d0af429 | method=GET | path=/items
+2026-07-26 16:31:36,283 | INFO | services.item_service | Retrieving all items
+2026-07-26 16:31:36,284 | INFO | services.item_service | Retrieved 6 items
+2026-07-26 16:31:36,284 | INFO | __main__ | RESPONSE | id=e879c731-8583-4d63-ad53-7c247d0af429 | method=GET | path=/items | status=200 | duration_ms=1.22
+2026-07-26 16:31:36,285 | INFO | werkzeug | 127.0.0.1 - - [26/Jul/2026 16:31:36] "GET /items HTTP/1.1" 200 -
+2026-07-28 04:49:43,833 | INFO | __main__ | REQUEST | id=54ecc90c-9551-47f0-9d7f-d6cd7a023f04 | method=GET | path=/
+2026-07-28 04:49:43,836 | INFO | __main__ | RESPONSE | id=54ecc90c-9551-47f0-9d7f-d6cd7a023f04 | method=GET | path=/ | status=200 | duration_ms=3.51
+2026-07-28 04:49:43,837 | INFO | werkzeug | 127.0.0.1 - - [28/Jul/2026 04:49:43] "GET / HTTP/1.1" 200 -
+2026-07-28 04:49:43,849 | INFO | __main__ | REQUEST | id=53b957ff-93ed-42b1-ac3d-aa47775145a4 | method=GET | path=/static/css/style.css
+2026-07-28 04:49:43,850 | INFO | __main__ | REQUEST | id=8d2c1c62-a9cf-4512-bb0d-070e02b28d3b | method=GET | path=/static/js/script.js
+2026-07-28 04:49:43,864 | INFO | __main__ | RESPONSE | id=53b957ff-93ed-42b1-ac3d-aa47775145a4 | method=GET | path=/static/css/style.css | status=304 | duration_ms=15.94
+2026-07-28 04:49:43,865 | INFO | werkzeug | 127.0.0.1 - - [28/Jul/2026 04:49:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-28 04:49:43,885 | INFO | __main__ | RESPONSE | id=8d2c1c62-a9cf-4512-bb0d-070e02b28d3b | method=GET | path=/static/js/script.js | status=304 | duration_ms=35.53
+2026-07-28 04:49:43,886 | INFO | werkzeug | 127.0.0.1 - - [28/Jul/2026 04:49:43] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-07-28 04:49:43,895 | INFO | __main__ | REQUEST | id=8deeb4fc-62d5-4866-a552-18e2053d7b4f | method=GET | path=/items
+2026-07-28 04:49:43,895 | INFO | services.item_service | Retrieving all items
+2026-07-28 04:49:43,905 | INFO | services.item_service | Retrieved 6 items
+2026-07-28 04:49:43,906 | INFO | __main__ | RESPONSE | id=8deeb4fc-62d5-4866-a552-18e2053d7b4f | method=GET | path=/items | status=200 | duration_ms=10.42
+2026-07-28 04:49:43,906 | INFO | werkzeug | 127.0.0.1 - - [28/Jul/2026 04:49:43] "GET /items HTTP/1.1" 200 -
+2026-07-29 19:47:36,906 | INFO | app | Logging initialized. Log file: c:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-29 19:47:37,271 | INFO | app | Database initialization completed
+2026-07-29 19:48:46,001 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-29 19:48:46,018 | INFO | __main__ | Database initialization completed
+2026-07-29 19:48:46,018 | INFO | __main__ | Starting Flask CRUD API
+2026-07-29 19:48:46,086 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-29 19:48:46,086 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-07-29 19:48:46,097 | INFO | werkzeug |  * Restarting with stat
+2026-07-29 19:48:46,656 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-29 19:48:46,671 | INFO | __main__ | Database initialization completed
+2026-07-29 19:48:46,671 | INFO | __main__ | Starting Flask CRUD API
+2026-07-29 19:48:46,684 | WARNING | werkzeug |  * Debugger is active!
+2026-07-29 19:48:46,711 | INFO | werkzeug |  * Debugger PIN: 139-795-324
+2026-07-29 19:59:46,889 | INFO | __main__ | REQUEST | id=80aab72f-ced1-4a19-9c84-08384a295e93 | method=GET | path=/
+2026-07-29 19:59:46,952 | INFO | __main__ | RESPONSE | id=80aab72f-ced1-4a19-9c84-08384a295e93 | method=GET | path=/ | status=200 | duration_ms=63.43
+2026-07-29 19:59:46,953 | INFO | werkzeug | 127.0.0.1 - - [29/Jul/2026 19:59:46] "GET / HTTP/1.1" 200 -
+2026-07-29 19:59:46,961 | INFO | __main__ | REQUEST | id=d2689f8a-e4d4-410b-b5d3-b287bbede83f | method=GET | path=/static/css/style.css
+2026-07-29 19:59:46,962 | INFO | __main__ | REQUEST | id=d557ce2d-39e6-4d49-94db-8c542bc956e2 | method=GET | path=/static/js/script.js
+2026-07-29 19:59:47,031 | INFO | __main__ | RESPONSE | id=d2689f8a-e4d4-410b-b5d3-b287bbede83f | method=GET | path=/static/css/style.css | status=200 | duration_ms=70.24
+2026-07-29 19:59:47,032 | INFO | werkzeug | 127.0.0.1 - - [29/Jul/2026 19:59:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-29 19:59:47,047 | INFO | __main__ | RESPONSE | id=d557ce2d-39e6-4d49-94db-8c542bc956e2 | method=GET | path=/static/js/script.js | status=200 | duration_ms=84.44
+2026-07-29 19:59:47,047 | INFO | werkzeug | 127.0.0.1 - - [29/Jul/2026 19:59:47] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-07-29 19:59:47,078 | INFO | __main__ | REQUEST | id=7bad9fb0-45e0-4e8d-9518-111182500fa3 | method=GET | path=/items
+2026-07-29 19:59:47,078 | INFO | services.item_service | Retrieving all items
+2026-07-29 19:59:47,083 | INFO | services.item_service | Retrieved 6 items
+2026-07-29 19:59:47,083 | INFO | __main__ | RESPONSE | id=7bad9fb0-45e0-4e8d-9518-111182500fa3 | method=GET | path=/items | status=200 | duration_ms=5.39
+2026-07-29 19:59:47,083 | INFO | werkzeug | 127.0.0.1 - - [29/Jul/2026 19:59:47] "GET /items HTTP/1.1" 200 -
+2026-07-29 19:59:47,719 | INFO | __main__ | REQUEST | id=a48bda86-2e5a-4d10-b40a-d4d36d7bb9d5 | method=GET | path=/favicon.ico
+2026-07-29 19:59:47,720 | WARNING | __main__ | NOT_FOUND | id=a48bda86-2e5a-4d10-b40a-d4d36d7bb9d5 | method=GET | path=/favicon.ico
+2026-07-29 19:59:47,721 | INFO | __main__ | RESPONSE | id=a48bda86-2e5a-4d10-b40a-d4d36d7bb9d5 | method=GET | path=/favicon.ico | status=404 | duration_ms=1.10
+2026-07-29 19:59:47,721 | INFO | werkzeug | 127.0.0.1 - - [29/Jul/2026 19:59:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-29 20:02:37,973 | INFO | werkzeug |  * Detected change in 'C:\\Users\\Admin\\Desktop\\SindhujaAI Learning\\Sindhuja Projects\\FlaskCRUDAPI\\config.py', reloading
+2026-07-29 20:02:38,082 | INFO | werkzeug |  * Restarting with stat
+2026-07-29 20:02:38,740 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-07-29 22:27:05,885 | INFO | app | Logging initialized. Log file: C:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-08-01 08:03:09,299 | INFO | app | Logging initialized. Log file: c:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
+2026-08-03 15:38:29,028 | INFO | app | Logging initialized. Log file: c:\Users\Admin\Desktop\SindhujaAI Learning\Sindhuja Projects\FlaskCRUDAPI\logs\app.log
